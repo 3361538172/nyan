@@ -7,7 +7,7 @@ a = 0
 b = 0
 
 if x1 == x2:
-    ezit('两x需不同')
+    exit('两x需不同')
 else:
     a = (y1 - y2) / (x1 - x2)
     b = y1 - a * x1
